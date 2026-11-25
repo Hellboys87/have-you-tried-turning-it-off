@@ -5,7 +5,7 @@ import * as path from "node:path";
 // desperate customer. Written for the make.fun bounty
 // "Have You Tried Turning It Off?".
 const LINE =
-  "Have you tried turning it off and on again? It's the only trick I know, and honestly, it worked once \u2014 on my own laptop, in 2019.";
+  "Have you tried turning it off and on again? It's the only thing they taught me, and it worked once \u2014 on my own laptop, in 2019.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 fs.mkdirSync(outDir, { recursive: true });
